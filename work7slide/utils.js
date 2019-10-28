@@ -15,9 +15,9 @@ function bubbleSort(str) {
            //比较相邻的两个元素，如果左面的大，那么就把大的交换到右边
             if (arr[j]> arr[j + 1 ]) {
             //使用解构复制的方法，把两个元素交换位置
-            [arr[j],arr[j + 1]]=[arr[ j + 1 ], arr[j]];
+            [arr[j],arr[j + 1]]=[arr[ j + 1 ], arr[j]]
             //把比较之后的数组状态和定位指针针保存到sortLog中
-            sortLog.push ([arr.concat(), [j, j + 1]])            
+            sortLog.push ([arr.concat(), [j,j + 1]])            
             }
         }
     }
