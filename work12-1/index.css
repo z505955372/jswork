@@ -7,9 +7,11 @@ body{
 }
 .preyear{
     float: left;
+    cursor: pointer;
 }
 .nextyear {
     float: right;
+    cursor: pointer;
 }
 .box{
     margin: 0 auto;
