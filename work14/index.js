@@ -1,5 +1,5 @@
 //设置秒杀的结束时间为15秒之后
-let endsconds = new Date().getTime() + 57600 * 1000 + 1260 * 1000 + 0 * 1000;
+let endsconds = new Date().getTime() + 15 * 1000;
 //声明变量保存剩余的时间
 let d = h = m = s =0;
 //设置定时器，实现限时秒杀效果
