@@ -59,7 +59,7 @@
                     if (item.data.num > 1) {
                         item.num.textContent = --item.data.num;
                         item.updateSubtotal();
-                        item.updateTotal();
+                        cart.updateTotal();
                     } else {
                         alert('至少选择一件，如果不需要，请直接删除');
                     }
@@ -91,7 +91,7 @@
                     }
                 },
                 /**
-                 * 更新统计
+                 * 更新总计
                  */
                 updateTotal: function() {
                     let num = 0, price = 0;
