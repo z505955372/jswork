@@ -114,7 +114,7 @@
             onChange: function(){
                 // comment.ajax('http://localhost:8080/ajax?page=' + this.page, function (){ //这个是我的服务器
                 comment.ajax('http://139.9.81.203:8090/ajax?page=' + this.page, function (){
-                    progressBar = new ProgressBar(progressContainer);
+                    progressBar = new ProgressBar(progressContainer); 
                     progressBar.show();
                 }, function (obj) {
                     pageList.maxPage = obj.maxPage;
